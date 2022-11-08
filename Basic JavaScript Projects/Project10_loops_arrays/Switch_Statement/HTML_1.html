@@ -1,19 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <title>Switch Statement Guessing Game</title>
-  </head>
-  <body>
-    <p id="Instruction">Please select a number between 1 and 100.</p>
-    <p id="Result"></p>
-    <input id="Input" />
-    <button id="btn" onclick="play()">Submit</button>
-    <script src="./JavaScript_1.js"></script>
+  <title>Switch Statement Guessing Game</title>
+</head>
 
+<body>
+  <p class="info" id="Instruction">Please select a number between 1 and 100.</p>
+  <p class="info" id="Result"></p>
+  <input id="Input" />
+  <button id="btn" onclick="play()">Submit</button>
+
+
+  <p>Canvas text drawing:</p>
+  <canvas id="techAcademyText" width="172" height="36" style="border:2px outset #3dc8ff;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+  <button onclick="draw()">Click me!</button>
+  <br>
+  <canvas id="canvas1" width="172" height="36" style="border:2px outset #3dc8ff;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+
+  <script src="./JS/JavaScript_1.js"></script>
 </body>
+
 </html>
