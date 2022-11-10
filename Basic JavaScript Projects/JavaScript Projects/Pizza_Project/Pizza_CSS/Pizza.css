@@ -1,0 +1,65 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: fantasy;
+    color: rgb(163, 46, 20);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(159, 122, 0);
+}
+
+#menuBG {
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 100%;
+    display: flex;
+}
+
+#totalPrice {
+    float: right;
+}
+
+
+
+#showText {
+    float: left;
+}
+
+#cart {
+    margin: 25px auto;
+    width: 400px;
+}
+
+#btnOrder {
+    height: 40px;
+    margin: 25px auto;
+    display: block;
+    text-align: center;
+}
+
+.menu {
+    margin: 4rem;
+}
+
+.align-center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input {
+    text-align: left;
+}
+
