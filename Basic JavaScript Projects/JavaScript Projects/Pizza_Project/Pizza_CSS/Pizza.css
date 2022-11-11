@@ -1,5 +1,12 @@
 body {
     background-color: aquamarine;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 h1 {
@@ -61,5 +68,6 @@ div {
 
 input {
     text-align: left;
+    font-size: 2vw;
 }
 
